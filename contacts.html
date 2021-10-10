@@ -2,28 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Catalog </title>
+    <title> Contacts </title>
+    <link rel="stylesheet" href="style.css">
     <style type="text/css">
-   #content {
-    width: 500px; /* Ширина слоя */
-    margin: 0 auto 50px; /* Выравнивание по центру */
-   }
-   #footer {
-     /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: #228228; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-   }
-  </style>
+        a {
+            text-decoration: none;
+        }
+        h1 {
+            padding-left: 150px;
+            padding-top: 10px;
+        }
+        img {
+            outline: 2px solid #000;
+            float: left;
+        }
+        footer {
+            background: #0F5;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 60px;
+        }
+        header {
+            background: #0F5;
+            width: 100%;
+            height: 250px;
+        }
+    </style>
 </head>
-<body>
+<header>
     <img src="logo.jpg" alt="logo.jpg" width="125px">
-    <ul>
-        <li><a href="homepage.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-    </ul>
+    <h1>О нас</h1>
+    <div class="header">
+        <ul style="list-style-type: none;">
+            <li class="menu-item"><a href="homepage.html">Главная</a></li>
+            <li class="menu-item"><a href="catalog.html">Каталог</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    
     <h2>
         Контакты:
     </h2>
@@ -46,8 +64,10 @@
         <input type="submit">
         <input type="reset">
     </form>
-    <div id="footer">
-        Copyleft &copy; 2021 bestgvozdi.ru
-    </div>
 </body>
+<footer>
+    <h3>
+        Copyleft &copy; 2021 bestgvozdi.ru
+    </h3>
+</footer>
 </html>

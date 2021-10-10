@@ -2,53 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Catalog </title>
+    <title> product №228 </title>
+    <link rel="stylesheet" href="style.css">
     <style type="text/css">
-   #content {
-    width: 500px; /* Ширина слоя */
-    margin: 0 auto 50px; /* Выравнивание по центру */
-   }
-   #footer {
-     /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: #228228; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-   }
-  </style>
+        a {
+            text-decoration: none;
+        }
+        img {
+            outline: 2px solid #000;
+        }
+        footer {
+            background: #0F5;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 60px;
+        }
+        header {
+            background: #0F5;
+            width: 100%;
+            height: 250px;
+        }
+    </style>
 </head>
+
 <body>
-    <img src="logo.jpg" alt="logo" width="125px">
-    
-    <ul>
-        <li><a href="homepage.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">О нас</a></li>
-    </ul>
+    <header>
+        <img style="float: left;" src="logo.jpg" alt="logo" width="125px">
+        <h1>Товар №228 </h1>
+        <div class="header">
+            <ul>
+                <li class="menu-item"><a href="homepage.html">Главная</a></li>
+                <li class="menu-item"><a href="catalog.html">Каталог</a></li>
+                <li class="menu-item"><a href="contacts.html">О нас</a></li>
+            </ul>
+        </div>
+    </header>
     <h1>
-        Прямой (универсальный) гвоздь
+        Стандартный гвоздь
     </h1>
+
     <h2>
         Цена: 1337 $
     </h2>
-    <img src="gvozd1.jpg" alt="logo" width="400px">
-    
-    <h3>
-        Плюсы:
-    </h3>
-    <ul>
-        <li>Отлично вбивается в любой тип древесины</li>
-        <li>Именно из него сделаны все остальные товары в этом магазине</li>
-    </ul>
-    <h3>
-        Минусы:
-    </h3>
-    <ul>
-        <li>Прийдется самому скручивать, если хотите носить как браслет</li>
-    </ul>
-    <div id="footer">
-        Copyleft &copy; 2021 bestgvozdi.ru
+    <img src="gvozd1.jpg" alt="logo" width="400px"> 
+
+    <div class="desc">
+        <h3>
+            Плюсы:
+        </h3>
+        <ul>
+            <li>Отлично вбивается в любой тип учеников, не решивших тригонометрию в пробнике</li>
+            <li>Именно из него сделаны все остальные товары в этом магазине</li>
+        </ul>
+        <h3>
+            Минусы:
+        </h3>
+        <ul>
+            <li>Отсутсвуют</li>
+        </ul>
     </div>
+    <h1></h1>
+    <button style="float: bottom">
+        Купить
+    </button>
 </body>
+<footer>
+    <h3>
+        Copyleft &copy; 2021 bestgvozdi.ru
+    </h3>
+</footer>
 </html>
